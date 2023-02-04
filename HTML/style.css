@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container_fon {
+    background: linear-gradient(180deg, #C6EC9E 0%, #EDF8B5 100%);
+    width: 300px;
+    height: 600px;
+    background: cover;
+    background-repeat: no-repeat;
+    background-image: url(image/ICHI-OCHA_KV-PRODUCT-\(10\).png);
+}
+
+.container {
+    width: 300px;
+    height: 600px;
+    background-image: url(image/light1.png);
+    background: cover;
+    background-repeat: no-repeat;
+}
+
+.header_heading {
+    width: 286.3px;
+    height: 74px;
+    margin-left: 7px;
+    margin-right: 7px;
+    padding-top: 38.65px;
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 31.8804px;
+    line-height: 37px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #2D8957;
+    text-shadow: 0.910868px 0.910868px 3.64347px #3CBA85;
+}
+
+.header_text {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16.3956px;
+    line-height: 19px;
+    text-align: center;
+    color: #2D8957;
+    text-align: center;
+}
+
+.block_fruit {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30.82px;
+    margin-left: 30.85px;
+    margin-right: 28.66px;
+    justify-content: space-between;
+}
+
+.fruit {
+    box-sizing: border-box;
+    width: 112.34px;
+    height: 115.08px;
+    top: 173.24px;
+    border: 0.918263px solid #FFFFFF;
+    border-radius: 27.5479px;
+    margin-bottom: 16.3px;
+    background: linear-gradient(186.15deg, #F7FABA 0.42%, #C5EB9D 63.56%);
+}
+
+.fruit_img {
+    transition: 1s;
+}
+
+.fruit_img:hover {
+    transform: scale(110%)
+}
+
+
+.honey {
+    padding-top: 15.16px;
+    padding-left: 8.29px;
+    padding-bottom: 8.11px;
+    padding-right: 8.56px;
+}
+
+.lime {
+    padding-top: 13.75px;
+    padding-left: 16.59px;
+    padding-bottom: 16.92px;
+    padding-right: 15.11px;
+}
+
+.plant {
+    padding-top: 11.48px;
+    padding-left: 5.8px;
+    padding-bottom: 9.03px;
+    padding-right: 8.53px;
+}
+
+.absolute {
+    background-color: #3CBA85;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    margin-left: 80px;
+    margin-top: 50px;
+    transform: rotate(45deg);
+    -webkit-animation: spin 4s linear infinite;
+    -moz-animation: spin 4s linear infinite;
+    animation: spin 4s linear infinite;
+    opacity: 0;
+}
+
+@-moz-keyframes spin {
+    100% {
+        -moz-transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}

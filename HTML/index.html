@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container_fon">
+        <div class="container">
+            <h1 class="header_heading">try different flavours</h1>
+            <p class="header_text">you have <span><b>3 attempts</b></span></p>
+            <div class="absolute"></div>
+            <div class="block_fruit">
+                <div class="fruit honey" onclick="clicker()"><img class="fruit_img"
+                        src="image/ICHI-OCHA_KV-PRODUCT-(2).png" alt=""></div>
+                <div class="fruit plant" onclick="clicker()"><img class="fruit_img"
+                        src="image/ICHI-OCHA_KV-PRODUCT-(4) 1 (1).png" alt="">
+                </div>
+                <div class="fruit lime" onclick="clicker()"><img class="fruit_img"
+                        src="image/ICHI-OCHA_KV-PRODUCT-(11) 1.png" alt=""></div>
+                <div class="fruit honey" onclick="clicker()"><img class="fruit_img"
+                        src="image/ICHI-OCHA_KV-PRODUCT-(2).png" alt=""></div>
+                <div class="fruit lime" onclick="clicker()"><img class="fruit_img"
+                        src="image/ICHI-OCHA_KV-PRODUCT-(11) 1.png" alt=""></div>
+                <div class="fruit plant" onclick="clicker()"><img class="fruit_img"
+                        src="image/ICHI-OCHA_KV-PRODUCT-(4) 1 (1).png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script>
+    let content = document.querySelector('.fruit_img');
+    let blocking = document.querySelector('.absolute');
+
+    function check() {
+        blocking.style.opacity = '1';
+    }
+
+    function clicker() {
+        check()
+        setTimeout(function () {
+            window.location = 'index_two.html';
+        }, 3000);
+    }
+
+</script>
+
+</html>

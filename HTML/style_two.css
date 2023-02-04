@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container_fon {
+    background: linear-gradient(180deg, #C6EC9E 0%, #EDF8B5 100%);
+    width: 300px;
+    height: 600px;
+    background: cover;
+    background-repeat: no-repeat;
+    background-image: url(image/ICHI-OCHA_KV-PRODUCT-\(10\).png);
+}
+
+.container {
+    width: 300px;
+    height: 600px;
+    background-image: url(image/light1.png);
+    background: cover;
+    background-repeat: no-repeat;
+}
+
+.header_heading {
+    padding-top: 75px;
+    padding-left: 21px;
+    padding-right: 21px;
+    width: 257.46px;
+    height: 73px;
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 24.2217px;
+    line-height: 41px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #2D8957;
+    text-shadow: 0.81911px 0.81911px 3.27644px #3CBA85;
+}
+
+.BUY-block {
+    width: 133.2px;
+    height: 37.11px;
+    left: 83px;
+    top: 162.86px;
+}
+
+.BUY-block_color {
+    box-sizing: border-box;
+    width: 133.2px;
+    height: 37.11px;
+    margin-left: 83px;
+    margin-top: 16px;
+    background: linear-gradient(180deg, #F1F9B7 0%, #C6EC9E 100%);
+    border: 0.822127px solid #FFFFFF;
+    border-radius: 32.8851px;
+    align-items: center;
+    display: flex;
+    text-align: center;
+}
+
+.BUY-block_text {
+    width: 70.6px;
+    height: 27.16px;
+    margin-left: 31.3px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 26.3081px;
+    line-height: 31px;
+    text-transform: uppercase;
+    color: #2D8957;
+
+}
+
+.image_img {
+    max-width: 100%;
+    height: 394px;
+    position: absolute;
+}
+
+.image_img_two {
+    position: absolute;
+    width: 110.81px;
+    height: 109.91px;
+    margin-left: 184px;
+    transform: rotate(5.35deg);
+}
+
+
+.image_img_free {
+    position: absolute;
+    width: 163.15px;
+    height: auto;
+    margin-top: 280px;
+    margin-left: 134px;
+}
