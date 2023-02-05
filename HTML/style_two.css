@@ -22,19 +22,20 @@
 
 .header_heading {
     padding-top: 75px;
-    padding-left: 21px;
-    padding-right: 21px;
-    width: 257.46px;
+    padding-left: 11px;
+    padding-right: 11px;
+    width: 287.46px;
     height: 73px;
     font-family: 'Roboto';
     font-style: italic;
     font-weight: 700;
-    font-size: 24.2217px;
+    font-size: 27.2217px;
     line-height: 41px;
     text-align: center;
     text-transform: uppercase;
     color: #2D8957;
     text-shadow: 0.81911px 0.81911px 3.27644px #3CBA85;
+    text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
 }
 
 .BUY-block {
